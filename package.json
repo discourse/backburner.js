@@ -1,10 +1,10 @@
 {
-  "name": "backburner.js",
+  "name": "@discourse/backburner.js",
   "version": "2.7.0",
-  "description": "Backburner.js is a simple run loop-esque library for coalescing actions",
+  "description": "A fork of backburner.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/BackburnerJS/backburner.js.git"
+    "url": "https://github.com/discourse/backburner.js.git"
   },
   "license": "MIT",
   "author": "Erik Bryn",
@@ -44,21 +44,10 @@
     "tslint": "^6.1.3"
   },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "release-it": {
-    "plugins": {
-      "release-it-lerna-changelog": {
-        "infile": "CHANGELOG.md",
-        "launchEditor": true
-      }
-    },
-    "git": {
-      "tagName": "v${version}"
-    },
-    "github": {
-      "release": true,
-      "tokenRef": "GITHUB_AUTH"
-    }
+
   }
 }
