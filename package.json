@@ -1,6 +1,6 @@
 {
   "name": "@discourse/backburner.js",
-  "version": "2.7.0",
+  "version": "2.7.1-0",
   "description": "A fork of backburner.js",
   "repository": {
     "type": "git",
@@ -47,7 +47,5 @@
     "registry": "https://registry.npmjs.org",
     "access": "public"
   },
-  "release-it": {
-
-  }
+  "release-it": {}
 }
